@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const RankingConts = () => {
-  return (
-    <section className="RankingConts">
-      <div className=""></div>
-    </section>
-  )
-}
+  return <div>RankingConts</div>;
+};
 
-export default RankingConts
+export default RankingConts;
