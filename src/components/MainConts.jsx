@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 const MainConts = () => {
-  return <div>MainConts</div>;
-};
+  return <div></div>
+}
 
-export default MainConts;
+export default MainConts
