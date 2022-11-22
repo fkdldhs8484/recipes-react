@@ -1,0 +1,34 @@
+.footer__wrap {
+  // left: 0;
+  // bottom: -1140px;
+  // position: absolute;
+  margin-top: 240px;
+  // width: 1479px;
+  height: 240px;
+  // border-top: 1px solid #e3e3e3;
+
+  .footer__inner {
+    text-align: center;
+    border-top: solid 1px #e0e0e0;
+    .desc {
+      color: #999;
+      font-size: 23px;
+      &:nth-child(3) {
+        padding-bottom: 53px;
+        // border-bottom: 1px solid #000;
+      }
+    }
+    .footer__icon {
+      img {
+        width: 53px;
+        height: 52px;
+        margin-bottom: 27px;
+        margin-top: 54px;
+
+        &:first-child {
+          margin-right: 21px;
+        }
+      }
+    }
+  }
+}

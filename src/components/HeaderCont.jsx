@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Orange from './assets/img/orange-one.png'
+
 const HeaderCont = () => {
   return (
     <section className="header__wrap">
@@ -10,12 +12,8 @@ const HeaderCont = () => {
         </h1>
         <div class="header__mune">
           <ul>
-            <li>
-              <img
-                className="header__icon"
-                src="/src/img/orange-one.png"
-                alt="라임"
-              />
+            <li className="header__icon">
+              <img src={Orange} alt="라임" />
               오늘의 레시피
             </li>
             <li>CLASSIFICATION</li>
