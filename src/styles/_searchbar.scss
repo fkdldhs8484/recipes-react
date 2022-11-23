@@ -1,17 +1,16 @@
-.ranking__wrap {
+.search__wrap {
   display: flex;
   overflow: hidden;
 
-  .ranking__inner {
+  .search__inner {
     width: 100%;
     margin: 0 auto;
     position: relative;
     // padding-bottom: 45px;
-    border-left: 1px solid #e0e0e0;
   }
 }
 
-.ranking__main {
+.search__main {
   padding: 50px;
   padding-top: 50px;
 
@@ -27,11 +26,11 @@
     margin-top: 27px;
   }
 
-  .ranking__desc {
+  .search__desc {
     // width: 1477px;
     margin-top: 60px;
 
-    .ranking__table {
+    .search__table {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
