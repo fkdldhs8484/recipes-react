@@ -44,50 +44,72 @@ const RankingConts = () => {
                 <li>
                   <img src={Rectangle01} alt="음식사진" />
                   <h2>Perfect Pizza Crust</h2>
-                  <span></span>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
                 </li>
               </ul>
               <ul>
                 <li>
                   <img src={Rectangle02} alt="음식사진" />
                   <h2>Classic Fried Chiken</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
                 </li>
               </ul>
               <ul>
                 <li>
                   <img src={Rectangle03} alt="음식사진" />
                   <h2>The Best Hamburger</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
                 </li>
               </ul>
               <ul>
                 <li>
                   <img src={Rectangle04} alt="음식사진" />
                   <h2>Tiktok Ramen</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
                 </li>
               </ul>
               <ul>
                 <li>
                   <img src={Rectangle05} alt="음식사진" />
                   <h2>Perfect Pizza Crust</h2>
-                  <span></span>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
                 </li>
               </ul>
               <ul>
                 <li>
                   <img src={Rectangle06} alt="음식사진" />
                   <h2>Classic Fried Chiken</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
                 </li>
               </ul>
               <ul>
                 <li>
                   <img src={Rectangle07} alt="음식사진" />
                   <h2>The Best Hamburger</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
                 </li>
               </ul>
               <ul>
                 <li>
                   <img src={Rectangle08} alt="음식사진" />
                   <h2>Tiktok Ramen</h2>
+                  <span>
+                    <img src={star} alt="별 아이콘" />
+                  </span>
                 </li>
               </ul>
             </div>
