@@ -1,8 +1,9 @@
 .header__wrap {
   float: left;
 }
+
 .header__inner {
-  width: 316px;
+  // width: 316px;
   // height: 250px;
   border-right: 1px solid #e3e3e3;
 
@@ -30,7 +31,7 @@
 .header__mune {
   ul {
     // width: 257px;
-    padding: 27px 30px 962px 30px;
+    padding: 27px 31px 567px 31px;
 
     .header__icon {
       display: flex;
@@ -76,23 +77,8 @@
   border-top: 1px solid #e3e3e3;
 }
 
-.header__more {
-  padding: 29px 74px 156px 74px;
-  // border-top: 1px solid #e0e0e0;
-
-  .header__box {
-    display: block;
-    width: 97px;
-    height: 8px;
-    background: #e3e3e3;
-    margin-top: 15px;
-    margin-left: 35px;
-  }
-
-  h2 {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 15px;
-    font-weight: bold;
+/* card 반응형 */
+@media (max-width: 1200px) {
+  .header__mune {
   }
 }

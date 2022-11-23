@@ -21,10 +21,6 @@ const HeaderCont = () => {
             <li>YOUTUBE</li>
           </ul>
         </div>
-        <div className="header__more">
-          <span className="header__box"></span>
-          <h2>MORE</h2>
-        </div>
       </article>
     </section>
   )
