@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 import Orange from './assets/img/orange-one.png'
 
 const HeaderCont = () => {
@@ -17,13 +19,19 @@ const HeaderCont = () => {
               오늘의 레시피
             </li>
             <li>
-              <button>CLASSIFICATION</button>
+              <Link to="">
+                <button>CLASSIFICATION</button>
+              </Link>
             </li>
             <li>
-              <button>RANKING</button>
+              <Link to="ranking">
+                <button>RANKING</button>
+              </Link>
             </li>
             <li>
-              <button>YOUTUBE</button>
+              <Link to="youtube">
+                <button>YOUTUBE</button>
+              </Link>
             </li>
           </ul>
         </div>

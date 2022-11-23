@@ -1,0 +1,32 @@
+.youtube__wrap {
+  height: 1344px;
+  display: flex;
+
+  .youtube__inner {
+    width: 1585px;
+    padding: 0 76px;
+
+    border-left: 1px solid #e0e0e0;
+
+    .youtube__box1 {
+      display: inline-block;
+      h2 {
+        padding: 36px 0 40px 0;
+        font-size: 40px;
+
+        span {
+          color: #64a70a;
+          font-weight: bold;
+        }
+      }
+
+      .youtube__icon {
+        display: flex;
+        ul {
+          li {
+          }
+        }
+      }
+    }
+  }
+}
