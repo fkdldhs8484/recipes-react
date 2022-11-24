@@ -1,5 +1,6 @@
 // search
 .search__wrap {
+  height: 250px;
   display: flex;
   overflow: hidden;
   border-bottom: 1px solid #e3e3e3;
@@ -17,7 +18,7 @@
     justify-content: center;
 
     .search__icon {
-      width: 900px;
+      width: 512px;
       text-align: center;
       display: flex;
       margin: 0 auto;

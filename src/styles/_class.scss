@@ -1,0 +1,135 @@
+.class__wrap {
+  display: flex;
+  // overflow: hidden;
+
+  .class__inner {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border-left: solid 1px #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+
+    .class__box {
+      padding: 41px 61px 0 61px;
+
+      .class__bar {
+        // width: 1480px;
+        background: #f9f9f9;
+
+        margin-bottom: 48px;
+
+        .bar-t {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          // padding: 14px 29px 13px 29px;
+
+          .icon_cont {
+            text-align: center;
+            // margin-right: 61px;
+            font-size: 18px;
+            padding: 34px 29px 13px 29px;
+
+            &:nth-child(4) {
+              border: 1px solid #fc7405;
+              padding: 34px 29px 13px 29px;
+              background: #fff;
+            }
+            img {
+              width: 74px;
+              cursor: pointer;
+            }
+
+            div {
+              white-space: nowrap;
+              margin-top: 21px;
+              color: #707070;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .bar-b {
+          display: flex;
+          margin: 50px 0px;
+          margin-left: 50px;
+
+          .icon_cont {
+            text-align: center;
+
+            margin-right: 80px;
+            img {
+              width: 60px;
+              cursor: pointer;
+            }
+
+            div {
+              margin-left: 18px;
+              margin-top: 21px;
+              font-size: 18px;
+              color: #707070;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+    h2 {
+      margin-bottom: 36px;
+      margin-left: 5px;
+    }
+    .mando__inner {
+      .man-t {
+        display: flex;
+        justify-content: center;
+
+        img {
+          &:nth-child(1) {
+            width: 468px;
+            margin-right: 30px;
+            height: 280px;
+            cursor: pointer;
+          }
+          &:nth-child(3) {
+            width: 144px;
+            margin-top: 5px;
+            height: 22.67px;
+            margin-bottom: 34px;
+          }
+        }
+        .title {
+          margin-top: 7px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+      }
+      .man-b {
+        justify-content: center;
+        display: flex;
+
+        img {
+          &:nth-child(1) {
+            width: 468px;
+            height: 280px;
+            margin-right: 30px;
+            cursor: pointer;
+          }
+          &:nth-child(3) {
+            width: 144px;
+            height: 22.67px;
+            margin-top: 5px;
+            margin-bottom: 110px;
+          }
+        }
+        .title {
+          margin-top: 7px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+}

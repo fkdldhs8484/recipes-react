@@ -19,7 +19,7 @@ const HeaderCont = () => {
               오늘의 레시피
             </li>
             <li>
-              <Link to="">
+              <Link to="class">
                 <button>CLASSIFICATION</button>
               </Link>
             </li>

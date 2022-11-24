@@ -56,6 +56,7 @@
             margin-top: 20px;
             font-size: 25px;
             font-weight: bold;
+            cursor: pointer;
           }
 
           span {
@@ -64,6 +65,23 @@
               margin-top: 14px;
               width: 144px;
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .ranking__wrap {
+    .ranking__desc {
+      width: 100%;
+    }
+    .ranking__table {
+      width: 100%;
+      ul {
+        li {
+          img {
           }
         }
       }
