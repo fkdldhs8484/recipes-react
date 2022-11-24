@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
-import Orange from './assets/img/orange-one.png'
+import Orange from '../assets/img/orange-one.png'
 
 const HeaderCont = () => {
   return (

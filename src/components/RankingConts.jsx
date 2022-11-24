@@ -1,15 +1,6 @@
 import React from 'react'
 
-import star from './assets/img/star.png'
-
-import Rectangle01 from './assets/img/Rectangle01.png'
-import Rectangle02 from './assets/img/Rectangle02.png'
-import Rectangle03 from './assets/img/Rectangle03.png'
-import Rectangle04 from './assets/img/Rectangle04.png'
-import Rectangle05 from './assets/img/Rectangle05.png'
-import Rectangle06 from './assets/img/Rectangle06.png'
-import Rectangle07 from './assets/img/Rectangle07.png'
-import Rectangle08 from './assets/img/Rectangle08.png'
+import star from '../assets/img/star.png'
 
 const RankingConts = () => {
   return (
@@ -22,7 +13,7 @@ const RankingConts = () => {
             <div className="ranking__table">
               <ul>
                 <li>
-                  <img src={Rectangle01} alt="음식사진" />
+                  <img src="/assets/Rectangle01.png" alt="음식사진" />
                   <h2>Perfect Pizza Crust</h2>
                   <span>
                     <img src={star} alt="별 아이콘" />
@@ -31,7 +22,7 @@ const RankingConts = () => {
               </ul>
               <ul>
                 <li>
-                  <img src={Rectangle02} alt="음식사진" />
+                  <img src="/assets/Rectangle02.png" alt="음식사진" />
                   <h2>Classic Fried Chiken</h2>
                   <span>
                     <img src={star} alt="별 아이콘" />
@@ -40,7 +31,7 @@ const RankingConts = () => {
               </ul>
               <ul>
                 <li>
-                  <img src={Rectangle03} alt="음식사진" />
+                  <img src="/assets/Rectangle03.png" alt="음식사진" />
                   <h2>The Best Hamburger</h2>
                   <span>
                     <img src={star} alt="별 아이콘" />
@@ -49,7 +40,7 @@ const RankingConts = () => {
               </ul>
               <ul>
                 <li>
-                  <img src={Rectangle04} alt="음식사진" />
+                  <img src="/assets/Rectangle04.png" alt="음식사진" />
                   <h2>Tiktok Ramen</h2>
                   <span>
                     <img src={star} alt="별 아이콘" />
@@ -58,7 +49,7 @@ const RankingConts = () => {
               </ul>
               <ul>
                 <li>
-                  <img src={Rectangle05} alt="음식사진" />
+                  <img src="/assets/Rectangle05.png" alt="음식사진" />
                   <h2>Perfect Pizza Crust</h2>
                   <span>
                     <img src={star} alt="별 아이콘" />
@@ -67,7 +58,7 @@ const RankingConts = () => {
               </ul>
               <ul>
                 <li>
-                  <img src={Rectangle06} alt="음식사진" />
+                  <img src="/assets/Rectangle06.png" alt="음식사진" />
                   <h2>Classic Fried Chiken</h2>
                   <span>
                     <img src={star} alt="별 아이콘" />
@@ -76,7 +67,7 @@ const RankingConts = () => {
               </ul>
               <ul>
                 <li>
-                  <img src={Rectangle07} alt="음식사진" />
+                  <img src="/assets/Rectangle07.png" alt="음식사진" />
                   <h2>The Best Hamburger</h2>
                   <span>
                     <img src={star} alt="별 아이콘" />
@@ -85,7 +76,7 @@ const RankingConts = () => {
               </ul>
               <ul>
                 <li>
-                  <img src={Rectangle08} alt="음식사진" />
+                  <img src="/assets/Rectangle01.png" alt="음식사진" />
                   <h2>Tiktok Ramen</h2>
                   <span>
                     <img src={star} alt="별 아이콘" />
