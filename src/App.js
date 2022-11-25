@@ -1,12 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Main from './components/MainConts'
-import Class from './components/ClassCont'
-import Ranking from './components/RankingConts'
-import Youtube from './components/YoutubeConts'
-import Recipes from './components/RecipesConts'
+import Main from './include/MainConts'
+import Class from './include/ClassCont'
+import Ranking from './include/RankingConts'
+import Youtube from './include/YoutubeCont'
+import Recipes from './include/RecipesConts'
+import SearchBar from './include/SearchBar'
 
-import { HeaderCont, SearchBar, FooterCont } from './components'
+import HeaderCont from './layout/HeaderCont'
+import FooterCont from './layout/FooterCont'
 
 const App = () => {
   return (
