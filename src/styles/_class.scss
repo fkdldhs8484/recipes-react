@@ -52,22 +52,24 @@
 
         .bar-b {
           display: flex;
-          margin: 50px 0px;
-          margin-left: 50px;
+          align-items: center;
+          width: 806px;
+          justify-content: space-between;
+          padding-left: 37px;
 
           .icon_cont {
             text-align: center;
+            font-size: 18px;
+            padding: 34px 29px 13px 29px;
 
-            margin-right: 80px;
             img {
               width: 60px;
               cursor: pointer;
             }
 
             div {
-              margin-left: 18px;
+              white-space: nowrap;
               margin-top: 21px;
-              font-size: 18px;
               color: #707070;
               cursor: pointer;
             }
@@ -118,7 +120,7 @@
           &:nth-child(3) {
             width: 144px;
             height: 22.67px;
-            margin-top: 5px;
+            margin-top: 10px;
             margin-bottom: 110px;
           }
         }
