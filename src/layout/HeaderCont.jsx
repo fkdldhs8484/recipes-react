@@ -14,10 +14,12 @@ const HeaderCont = () => {
         </h1>
         <div class="header__mune">
           <ul>
-            <li className="header__icon">
-              <img src={Orange} alt="라임" />
-              오늘의 레시피
-            </li>
+            <Link to="/">
+              <li className="header__icon">
+                <img src={Orange} alt="라임" />
+                오늘의 레시피
+              </li>
+            </Link>
             <li>
               <Link to="class">
                 <button>CLASSIFICATION</button>
