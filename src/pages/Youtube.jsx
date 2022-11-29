@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import YoutubeCont from '../include/YoutubeCont'
+import YoutubeSlider from '../include/YoutubeSilder'
 
 const Youtube = () => {
   const [videos, setVideos] = useState([])
@@ -17,6 +18,7 @@ const Youtube = () => {
 
   return (
     <>
+      <YoutubeSlider />
       <YoutubeCont videos={videos} />
     </>
   )

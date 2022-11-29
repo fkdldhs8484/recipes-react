@@ -15,7 +15,7 @@ const YoutubeVideos = ({ videos }) => {
 }
 
 const YoutubeCont = ({ videos }) => {
-  console.log(videos)
+  // console.log(videos)
 
   return (
     <section className="youtube__wrap">
