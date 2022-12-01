@@ -5,14 +5,30 @@
     margin: 0 auto;
     position: relative;
     border-left: solid 1px #e3e3e3;
-    display: flex;
-    justify-content: center;
+
     .slider__box {
       h2 {
-        font-weight: 40;
         font-weight: bold;
-        margin-top: 249px;
+        margin-top: 243px;
         margin-bottom: 113px;
+        text-align: center;
+      }
+
+      .slider__recipes {
+        width: 1479px;
+
+        ul {
+          display: flex;
+          justify-content: space-between;
+          background: #eee;
+          width: 187px;
+          height: 187px;
+
+          li {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
       }
     }
   }
